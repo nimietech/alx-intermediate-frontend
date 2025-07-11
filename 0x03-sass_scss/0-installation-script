@@ -1,7 +1,16 @@
-steps you to INSTALL SASS
+Steps you to INSTALL SASS
 
-// Install node or update to the latest node js
+# Step 1: Make sure Node.js and npm are installed or updated
+node -v
+npm -v
 
-// create a folder 
+# Step 2: create a new directory for your SASS/SCSS task
+mkdir 0x03-sass_scss
+cd 0x03-sass_scss
 
-// open terminal and use this command inside any folder of your choice "npm install -g sass"
+# Step 3: Install Sass (latest version) inside the new directory
+npm install -g sass
+
+# Step 4: Confirm Sass is installed
+sass --version
+

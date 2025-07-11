@@ -1,13 +1,14 @@
 // A Sass file that assigns: No margin or padding in body tags and Margin 10px to all of the p tags inside body tags
+//  Nested scss
 
-// command to view sass 2-nested_tag.scss
-
+// command to view in terminal- sass 2-nested_tag.scss
 
 body {
   margin: 0px;
   padding: 0px; 
+
+  p {
+  margin: 10px; 
+  }
 }
 
-body p {
-  margin: 10px; 
-}
